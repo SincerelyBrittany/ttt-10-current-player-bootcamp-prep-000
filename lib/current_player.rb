@@ -1,4 +1,4 @@
-Learn more or give us feedback
+
 def turn_count(board)
   # board.count{|token| token == "X" || token == "O"}
 
