@@ -1,8 +1,8 @@
-# def turn_count()
+def turn_count()
 # board = ["X", "O", "X", "O","X", "O","X", "O","X"]
 
-# board_in_basket = board.size # Step 1
-# board_taken_out = 0 # Step 2
+board_in_basket = board.size # Step 1
+board_taken_out = 0 # Step 2
 
 # loop do # Step 3
 #     if board_taken_out < board_in_basket 
