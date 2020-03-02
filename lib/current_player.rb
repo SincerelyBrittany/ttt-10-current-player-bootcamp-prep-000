@@ -1,15 +1,4 @@
-def turn_count(board)
-  # board.count{|token| token == "X" || token == "O"}
 
-  turns = 0
-  board.each do |token|
-    if token == "X" || token == "O"
-      turns += 1
-    end
-  end
-  turns
-
-end
 # loop do # Step 3
 #     if board_taken_out < board_in_basket 
 #         # Step 4
@@ -43,10 +32,5 @@ end
 # primary_colors.each do |color|
 #   puts "Primary Color #{color} is #{color.length} letters long."
 # end
-
-
-
-def current_player()
-
 
 
