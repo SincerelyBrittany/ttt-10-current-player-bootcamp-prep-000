@@ -1,4 +1,3 @@
-Learn more or give us feedback
 def turn_count(board)
   # board.count{|token| token == "X" || token == "O"}
 
@@ -11,10 +10,17 @@ def turn_count(board)
   turns
 
 end
+# loop do # Step 3
+#     if board_taken_out < board_in_basket 
+#         # Step 4
+#         puts "Taking out #{board[board_taken_out]}"
+#       board_taken_out += 1
+#     else
+#         # Step 5
+#         break
+#     end
+# end
 
-def current_player(board)
-  turn_count(board) % 2 == 0 ? "X" : "O"
-end
 
 
 
