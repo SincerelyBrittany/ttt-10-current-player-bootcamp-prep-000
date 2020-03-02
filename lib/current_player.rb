@@ -1,4 +1,4 @@
-def turn_count
+def turn_count(board)
 
 apples_in_basket = basket.size # Step 1
 apples_taken_out = 0 # Step 2
