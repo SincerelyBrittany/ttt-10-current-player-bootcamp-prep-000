@@ -4,6 +4,10 @@ def turn_count()
 board_in_basket = board.size # Step 1
 board_taken_out = 0 # Step 2
 
+return board_in_basket
+
+end
+
 # loop do # Step 3
 #     if board_taken_out < board_in_basket 
 #         # Step 4
