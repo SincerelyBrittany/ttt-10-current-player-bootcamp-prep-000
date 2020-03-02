@@ -1,13 +1,13 @@
 def turn_count(board)
 
-apples_in_basket = basket.size # Step 1
-apples_taken_out = 0 # Step 2
+board_in_basket = board.size # Step 1
+board_taken_out = 0 # Step 2
 
 loop do # Step 3
-    if apples_taken_out < apples_in_basket 
+    if board_taken_out < board_in_basket 
         # Step 4
-        puts "Taking out #{basket[apples_taken_out]}"
-        apples_taken_out += 1
+        puts "Taking out #{board[board_taken_out]}"
+        board_taken_out += 1
     else
         # Step 5
         break
